@@ -24,9 +24,10 @@ public class RunStatechart {
 		s.raiseStart();
 		s.runCycle();
 		System.in.read();
-		s.raiseWhite();
+		//s.raiseWhite();
 		s.runCycle();
 		
+		/*
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 		String inputLine = reader.readLine();
 		
@@ -49,11 +50,14 @@ public class RunStatechart {
 			
 			inputLine = reader.readLine();
 		}
+		*/
 		
 	}
 
 	public static void print(IExampleStatemachine s) {
+		/*
 		System.out.println("W = " + s.getSCInterface().getWhiteTime());
 		System.out.println("B = " + s.getSCInterface().getBlackTime());
+		*/
 	}
 }
